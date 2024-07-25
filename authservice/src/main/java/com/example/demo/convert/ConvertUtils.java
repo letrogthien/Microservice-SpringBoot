@@ -2,7 +2,6 @@ package com.example.demo.convert;
 
 import com.example.demo.dto.UserDto;
 import com.example.demo.models.User;
-import com.example.demo.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;

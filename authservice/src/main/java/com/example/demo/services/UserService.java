@@ -23,7 +23,7 @@ public class UserService {
         return userRepository.findByUserName(username);
     }
 
-    public boolean userAlreadyExist(String userName){ return userRepository.findByUserNameExists(userName);}
+    public boolean userAlreadyExist(String userName){ return userRepository.existsByUserName(userName);}
 
     public User saveUser(User user){
         return userRepository.save(user);
